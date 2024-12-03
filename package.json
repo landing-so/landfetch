@@ -10,10 +10,16 @@
     "cf-typegen": "wrangler types"
   },
   "devDependencies": {
+    "@cloudflare/puppeteer": "^0.0.14",
     "@cloudflare/vitest-pool-workers": "^0.5.2",
     "@cloudflare/workers-types": "^4.20241202.0",
     "typescript": "^5.5.2",
     "vitest": "2.0.5",
     "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.6",
+    "ai": "^4.0.10",
+    "cheerio": "^1.0.0"
   }
 }
