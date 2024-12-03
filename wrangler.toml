@@ -113,3 +113,11 @@ preview_id = "9c465dd1ce7a4f4ba2197e86a7f86a5d"
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["Browser"] # Array of new classes
+
+[[migrations]]
+tag = "v2"
+deleted_classes = ["Browser"] # Array of deleted class names
